@@ -93,10 +93,10 @@ OUTSTANDING: none
 # Written by the background worker when its mode changes; agents read, never edit.
 [WORKER_STATUS]
 HOST: DESKTOP-4NTKUPV
-MODE: normal
-REASON: quota unknown
-NEXT_WAKE: 2026-10-13T19:22:52+05:30
-UPDATED_AT: 2026-10-13T19:21:52+05:30
+MODE: quota_wait
+REASON: quota exhausted until the verified reset 2026-10-13T19:33:00+05:30
+NEXT_WAKE: 2026-10-13T19:34:00+05:30
+UPDATED_AT: 2026-10-13T19:29:51+05:30
 [END_WORKER_STATUS]
 
 
