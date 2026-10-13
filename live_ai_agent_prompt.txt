@@ -78,10 +78,10 @@ To change a task at any time, add a STEER block under the queue. The agent appli
 # Warn early: update this section by 85% of a limit used (15% left) at the latest.
 PROVIDER: TEST - simulated, not a real quota
 QUOTA_TYPE: UNKNOWN
-OBSERVED_AT: UNKNOWN
+OBSERVED_AT: 2026-10-13T19:29:31+05:30
 STATUS: EXHAUSTED
 REMAINING: UNKNOWN
-RESET_AT: 2026-10-13T14:03:00+05:30
+RESET_AT: 2026-10-13T19:33:00+05:30
 RESET_VERIFIED: YES
 TIMEZONE: Asia/Kolkata
 EVIDENCE: verification test of the worker's quota-wait mode
