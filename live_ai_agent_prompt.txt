@@ -153,6 +153,14 @@ UPDATED_AT: 2026-10-13T19:35:00+05:30
 
 # Add new PROMPT and STEER blocks below this line.
 
+[ STEER ]
+STEER_ID: CTRL-STEER-20261013-203259-8BDF
+TARGET: CLAUDE-GREETING-001
+ACTION: CHANGE
+NOTE: Say 'Hi from claude'. Provide the last output only, with no introductory text, conversational filler, or preamble.
+END_STEER
+
+
 [ PROMPT ]
 PROMPT_ID: CLAUDE-GREETING-001
 RUN_AT: 2026-10-13T20:29:53+05:30
