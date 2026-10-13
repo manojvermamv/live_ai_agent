@@ -152,3 +152,17 @@ UPDATED_AT: 2026-10-13T19:35:00+05:30
 
 
 # Add new PROMPT and STEER blocks below this line.
+
+[ PROMPT ]
+PROMPT_ID: CLAUDE-GREETING-001
+RUN_AT: 2026-10-13T20:29:53+05:30
+REPEAT: NONE
+PRIORITY: HIGH
+STATUS: READY
+TITLE: Greeting from Claude
+DONE_WHEN:
+- Greeting delivered stating 'Hi from claude'
+PROMPT_TEXT:
+Please say 'Hi from claude'. Output the greeting clearly and record your execution result according to the FINAL_OUTPUT specifications.
+END_PROMPT
+
