@@ -69,6 +69,27 @@ To change a task at any time, add a STEER block under the queue. The agent appli
 [END_STEERING]
 
 
+[QUOTA_STATUS]
+# An AI agent's verified quota, written BEFORE it runs out, then committed and pushed at once.
+# The background worker reads it to choose its polling mode; it never guesses a reset time.
+# STATUS: AVAILABLE | NEAR_LIMIT | EXHAUSTED | UNAVAILABLE | UNKNOWN
+# RESET_AT: ISO time with offset, e.g. 2026-10-13T23:30:00+05:30, or UNKNOWN
+# RESET_VERIFIED: YES only when the time comes from the provider's own interface or logs.
+# Warn early: update this section by 85% of a limit used (15% left) at the latest.
+PROVIDER: UNKNOWN
+QUOTA_TYPE: UNKNOWN
+OBSERVED_AT: UNKNOWN
+STATUS: UNKNOWN
+REMAINING: UNKNOWN
+RESET_AT: UNKNOWN
+RESET_VERIFIED: NO
+TIMEZONE: Asia/Kolkata
+EVIDENCE: none recorded yet
+LAST_TASK: none
+OUTSTANDING: none
+[END_QUOTA_STATUS]
+
+
 # =================== [ HOW TO ADD A TASK ] ===================
 
 # Copy the PROMPT block below, keep PROMPT_ID unique, set STATUS to READY.
