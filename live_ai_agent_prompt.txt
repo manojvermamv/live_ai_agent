@@ -76,15 +76,15 @@ To change a task at any time, add a STEER block under the queue. The agent appli
 # RESET_AT: ISO time with offset, e.g. 2026-10-13T23:30:00+05:30, or UNKNOWN
 # RESET_VERIFIED: YES only when the time comes from the provider's own interface or logs.
 # Warn early: update this section by 85% of a limit used (15% left) at the latest.
-PROVIDER: UNKNOWN
+PROVIDER: TEST - simulated, not a real quota
 QUOTA_TYPE: UNKNOWN
 OBSERVED_AT: UNKNOWN
-STATUS: UNKNOWN
+STATUS: EXHAUSTED
 REMAINING: UNKNOWN
-RESET_AT: UNKNOWN
-RESET_VERIFIED: NO
+RESET_AT: 2026-10-13T14:03:00+05:30
+RESET_VERIFIED: YES
 TIMEZONE: Asia/Kolkata
-EVIDENCE: none recorded yet
+EVIDENCE: verification test of the worker's quota-wait mode
 LAST_TASK: none
 OUTSTANDING: none
 [END_QUOTA_STATUS]
