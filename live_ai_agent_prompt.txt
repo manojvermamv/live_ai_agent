@@ -94,9 +94,9 @@ OUTSTANDING: none
 [WORKER_STATUS]
 HOST: DESKTOP-4NTKUPV
 MODE: normal
-REASON: verified reset 2026-10-13T19:33:00+05:30 has passed; polling resumed by policy — quota not yet confirmed by an agent
-NEXT_WAKE: 2026-10-13T19:35:00+05:30
-UPDATED_AT: 2026-10-13T19:34:00+05:30
+REASON: quota unknown
+NEXT_WAKE: 2026-10-13T19:36:00+05:30
+UPDATED_AT: 2026-10-13T19:35:00+05:30
 [END_WORKER_STATUS]
 
 
