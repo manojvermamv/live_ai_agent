@@ -90,6 +90,16 @@ OUTSTANDING: none
 [END_QUOTA_STATUS]
 
 
+# Written by the background worker when its mode changes; agents read, never edit.
+[WORKER_STATUS]
+HOST: DESKTOP-4NTKUPV
+MODE: normal
+REASON: quota unknown
+NEXT_WAKE: 2026-10-13T19:22:52+05:30
+UPDATED_AT: 2026-10-13T19:21:52+05:30
+[END_WORKER_STATUS]
+
+
 # =================== [ HOW TO ADD A TASK ] ===================
 
 # Copy the PROMPT block below, keep PROMPT_ID unique, set STATUS to READY.
