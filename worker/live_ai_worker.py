@@ -460,6 +460,7 @@ class Worker:
             try:
                 self.write(lines, f"Worker: {mode}" + (f", {len(results)} steer(s)" if results else ""),
                            results)
+                self.state.data["last_commit"] = self.repo.head()
             except GitError as exc:
                 # The commit stays local; the next sync rebases and pushes it, or
                 # stops on a conflict without overwriting anything.
